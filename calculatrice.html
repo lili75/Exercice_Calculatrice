@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="func.js"></script>
+	<title>CALCULATRICE EN JS</title>
+</head>
+<body>
+	<p id="bio">
+		Qu'est ce que c'est que cette histoire ?
+		<!-- on inclut jQuery via CDN -->
+        <script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
+	</p>
+
+	<div id="affichage">
+		=>
+	</div>
+
+	<div id="calculatrice">
+		<div class="ligne">
+			<div><button onclick="getTouch(1)">1</button></div>
+			<div><button onclick="getTouch(2)">2</button></div>
+			<div><button onclick="getTouch(3)">3</button></div>
+		</div>
+		<div class="ligne">
+			<div><button onclick="getTouch(4)">4</button></div>
+			<div><button onclick="getTouch(5)">5</button></div>
+			<div><button onclick="getTouch(6)">6</button></div>
+		</div>
+		<div class="ligne">
+			<div><button onclick="getTouch(7)">7</button></div>
+			<div><button onclick="getTouch(8)">8</button></div>
+			<div><button onclick="getTouch(9)">9</button></div>
+		</div>
+		<div class="ligne"><button onclick=getTouch(0)>0</button></div>
+
+		<div class="ligne">
+			<div><button onclick="getTouch('+')">+</button></div>
+			<div><button onclick="getTouch('-')">-</button></div>
+			<div><button onclick="getTouch('*')">*</button></div>
+			<div><button onclick="getTouch('/')">/</button></div>
+		</div>
+		<div class="ligne">
+			<div><button onclick="cleanThat()">clear</button></div>
+			<div><button onclick="entree()">=</button></div>
+		</div>
+	</div> <!-- FIN DE LA CALCULATRICE -->
+
+</body>
+</html>

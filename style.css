@@ -1,0 +1,16 @@
+#calculatrice{
+	width: 30%;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.ligne{
+	display: flex;
+	justify-content: center;
+}
+
+input{
+	width: 25%;
+}
